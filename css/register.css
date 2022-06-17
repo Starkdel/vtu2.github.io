@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('../img/pic\ 1.jpg');
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ .input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.icon {
+    padding: 10px;
+    color: blue;
+    min-width: 50px;
+    text-align: center;
+}
+ label{
+    font-size: 13px;
+    font-weight: lighter;
+ }

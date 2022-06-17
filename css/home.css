@@ -1,0 +1,62 @@
+.fab{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.fab_left{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 16px;
+  
+}
+.part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 16px;
+  
+}
+
+@media only screen and (max-width: 900px) {
+    .part{
+        display: block;
+        margin-left: 26px;
+    }
+}
+.des{
+ 
+ margin: 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 10px;
+
+}
+.fa{
+    color: blue;
+}
+.fad{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 3rem;
+}
+#click{
+border-width: 1px;
+border-color: blue;
+background-color: blue;
+color: white;
+border-radius: 4px;
+transition: all 500ms ease;
+}
+#click:hover{
+    background-color: deepskyblue;
+}
+#select{
+    border-width: 1px;
+border-color: blue;
+
+color:blue;
+border-radius: 4px;
+transition: all 500ms ease;
+font-size: small;
+}
+#select:hover{
+    background-color:blue;
+color: white;}
